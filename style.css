@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #8d968a;
+    color: #2b2b2b;
+    text-align: center;
+    padding: 50px;
+    border: #000;
+    border-radius: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px 40px;
+    background-color: #f4f1f1;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #9ee809;
+}
+
+.banner {
+    background: #d6f5c9;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.tagline {
+    margin: 10px 0;
+}
+
+.badge {
+    background: #fff7e6;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 5px;
+    display: inline-block;
+}
+
+.badge.green {
+    background: #d6f5c9;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.earn {
+    color: green;
+}
+
+.details {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+}
+
+
+.mentor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.mentor-img {
+    width: 120px;
+    border-radius: 10px;
+}
+
+.icons img {
+    width: 35px;
+    margin: 5px;
+}
+
+.register-btn {
+    background: #28a745;
+    color: white;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 30px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s ease;
+}
+
+.register-btn:hover {
+    background: #218838;
+}
